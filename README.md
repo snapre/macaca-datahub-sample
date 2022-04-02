@@ -1,44 +1,45 @@
 # DataHub sample
+> 如何用 DataHub 解决前端工程师开发过程中的数据 Mock 问题
 
-## Server start (Eggjs server)
+## 启动后端服务 (Eggjs)
 ```bash
 $ cd server
 $ npm install
 $ npm run dev
 ```
 
-## Frontend dev start (React + Vite)
+## 启动前端开发服务 (React + Vite)
 ```bash
 $ cd frontend
 $ npm install
 $ npm run dev
 ```
 
-## DataHub server start
+## 配置 DataHub 环境
 
-1. Install macaca-datahub globally:
+1. 全局安装 macaca-datahub:
 ```bash
 $ npm install macaca-datahub -g
 ```
 
-2. Start datahub server:
+2. 一键启动服务:
 ```bash
 $ datahub server
 ```
 
-3. Open the url below, that's the url of the datahub service:
+3. 打开 DataHub 启动的地址:
 ```bash
 $ http://127.0.0.1:9200
 ```
 
-4. Create a Hub and open upload data patten:
+4. 创建一个 Hub 并打开数据上传模式:
 <img src="./docs/public/datahub-create-hub.png" style="border-radius: 8px; margin: 16px" />
 <img src="./docs/public/open-upload-button.png" style="border-radius: 8px; margin: 16px" />
 
-5. Import sample data, which was placed in this dir: `project_sample.json`
+1. 导入此目录下的模板数据: `project_sample.json`
 <img src="./docs/public/upload-data.png" style="border-radius: 8px; margin: 16px" />
 
-6. Enter this Hub and start your frontend development work with DataHub:
+6. 进入刚创建的 Hub，开始用 DataHub 助力前端开发:
 <img src="./docs/public/main.png" style="border-radius: 8px; margin: 16px" />
 
 ## Just enjoy the data out-of-the-box
