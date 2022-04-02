@@ -1,0 +1,133 @@
+[
+  {
+    "groupName": "api/v2/user",
+    "groupUniqId": "79ca7430-3aca-40ab-adae-ede87a11f421",
+    "interfaceList": [
+      {
+        "pathname": "api/v2/user/:username",
+        "method": "GET",
+        "description": "根据 username 获取用户信息",
+        "uniqId": "130dad45-15ac-4e6c-8687-0b65e6fb3ee6",
+        "groupUniqId": "79ca7430-3aca-40ab-adae-ede87a11f421",
+        "currentScene": "error",
+        "proxyConfig": {
+          "enabled": false,
+          "activeIndex": 0,
+          "proxyList": [
+            {
+              "proxyUrl": "http://127.0.0.1:7001"
+            }
+          ]
+        },
+        "scenes": [
+          {
+            "sceneName": "success",
+            "data": {
+              "success": true,
+              "data": {
+                "username": "snapre",
+                "email": "snapre@gmail.com",
+                "name": "XiaoRui",
+                "mobile": "150xxxx4561"
+              },
+              "type": "datahub scene data"
+            },
+            "interfaceUniqId": "130dad45-15ac-4e6c-8687-0b65e6fb3ee6",
+            "contextConfig": {
+              "responseHeaders": {}
+            },
+            "uniqId": "cf3cc91a-287a-491e-8ec1-c5c9f6fc3e9f",
+            "format": "json",
+            "createdAt": "2022-04-01T07:23:26.732Z",
+            "updatedAt": "2022-04-01T08:23:48.065Z"
+          },
+          {
+            "sceneName": "error",
+            "data": {
+              "success": false,
+              "data": [],
+              "type": "datahub scene data"
+            },
+            "interfaceUniqId": "130dad45-15ac-4e6c-8687-0b65e6fb3ee6",
+            "contextConfig": {
+              "responseHeaders": {}
+            },
+            "uniqId": "2efc089c-75cb-4640-bbb7-0957d76a3e79",
+            "format": "json",
+            "createdAt": "2022-04-02T10:34:00.075Z",
+            "updatedAt": "2022-04-02T10:34:00.075Z"
+          }
+        ],
+        "schemas": [
+          {
+            "type": "response",
+            "data": {
+              "enableSchemaValidate": false
+            },
+            "interfaceUniqId": "130dad45-15ac-4e6c-8687-0b65e6fb3ee6",
+            "uniqId": "43c36dcb-7568-4e0e-a919-ab82b2e7f31b",
+            "createdAt": "2022-04-01T13:18:31.056Z",
+            "updatedAt": "2022-04-01T13:18:31.056Z"
+          }
+        ]
+      },
+      {
+        "pathname": "api/v2/user",
+        "method": "POST",
+        "description": "创建用户",
+        "uniqId": "e9034ba0-088d-44d6-9b59-b7c33f7f5f31",
+        "groupUniqId": "79ca7430-3aca-40ab-adae-ede87a11f421",
+        "currentScene": "success",
+        "proxyConfig": {
+          "enabled": false,
+          "proxyList": [
+            {
+              "proxyUrl": "http://127.0.0.1:7001"
+            }
+          ],
+          "activeIndex": 0
+        },
+        "scenes": [
+          {
+            "sceneName": "success",
+            "data": {
+              "success": true,
+              "data": {
+                "username": "snapre",
+                "email": "snapre@gmail.com",
+                "name": "XiaoRui",
+                "mobile": "150xxxx4561"
+              },
+              "type": "datahub scene data"
+            },
+            "interfaceUniqId": "e9034ba0-088d-44d6-9b59-b7c33f7f5f31",
+            "contextConfig": {
+              "responseHeaders": {}
+            },
+            "uniqId": "6936d861-815d-491b-9967-2cfe05710edf",
+            "format": "json",
+            "createdAt": "2022-04-01T09:29:25.091Z",
+            "updatedAt": "2022-04-02T10:34:50.839Z"
+          },
+          {
+            "sceneName": "error",
+            "data": {
+              "success": false,
+              "data": {},
+              "type": "datahub scene data"
+            },
+            "interfaceUniqId": "e9034ba0-088d-44d6-9b59-b7c33f7f5f31",
+            "contextConfig": {
+              "responseHeaders": {}
+            },
+            "uniqId": "060505ca-3122-439b-94dc-ea137d022d4f",
+            "format": "json",
+            "createdAt": "2022-04-02T09:55:22.428Z",
+            "updatedAt": "2022-04-02T10:35:39.908Z"
+          }
+        ],
+        "schemas": []
+      }
+    ]
+  }
+]

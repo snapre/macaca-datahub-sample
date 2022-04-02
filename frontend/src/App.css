@@ -1,0 +1,34 @@
+.App {
+  height: 100vh;
+}
+
+.logo {
+  cursor: pointer;
+  float: left;
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  margin: 16px 24px 16px 0;
+  background: #001529;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.body-container {
+  margin: auto;
+  margin-top:100px;
+  padding: 16px;
+}
+
+.footer-container {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
