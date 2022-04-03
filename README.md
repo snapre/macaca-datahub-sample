@@ -1,13 +1,6 @@
 # DataHub sample
 > 如何用 DataHub 解决前端工程师开发过程中的数据 Mock 问题
 
-## 启动后端服务 (Eggjs)
-```bash
-$ cd server
-$ npm install
-$ npm run dev
-```
-
 ## 启动前端开发服务 (React + Vite)
 ```bash
 $ cd frontend
@@ -46,3 +39,15 @@ $ http://127.0.0.1:9200
 ## Just enjoy the data out-of-the-box
 
 ![Demo](./docs/public/demo.gif)
+
+## 进阶
+
+### 启动后端服务联调 (Eggjs)
+```bash
+$ cd server
+$ npm install
+$ npm run dev
+```
+
+### 可在联调阶段通过实时快照快速录入场景数据
+![Snapshot Import](./docs/public/snapshot-import.png)
