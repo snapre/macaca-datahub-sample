@@ -1,6 +1,8 @@
 # DataHub sample
 > 如何用 DataHub 解决前端工程师开发过程中的数据 Mock 问题
 
+[![CI](https://github.com/snapre/datahub-sample/actions/workflows/ci.yml/badge.svg)](https://github.com/snapre/datahub-sample/actions/workflows/ci.yml)
+
 ## 启动前端开发服务 (React + Vite)
 ```bash
 $ cd frontend
