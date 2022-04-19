@@ -13,11 +13,11 @@
 
 ## Contributors
 
-|[<img src="https://avatars.githubusercontent.com/u/52845048?v=4" width="100px;"/><br/><sub><b>snapre</b></sub>](https://github.com/snapre)<br/>|[<img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100px;"/><br/><sub><b>github-actions[bot]</b></sub>](https://github.com/apps/github-actions)<br/>|
-| :---: | :---: |
+|[<img src="https://avatars.githubusercontent.com/u/52845048?v=4" width="100px;"/><br/><sub><b>snapre</b></sub>](https://github.com/snapre)<br/>|[<img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100px;"/><br/><sub><b>github-actions[bot]</b></sub>](https://github.com/apps/github-actions)<br/>|[<img src="https://avatars.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|
+| :---: | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 12:07:22 GMT+0000`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 14:11:24 GMT+0000`.
 
 <!-- GITCONTRIBUTOR_END -->
 
