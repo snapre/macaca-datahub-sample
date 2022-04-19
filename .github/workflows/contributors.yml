@@ -23,13 +23,8 @@ jobs:
       - name: Install git-contributor
         run: npm i git-contributor -D
 
-      - name: Append contributors to the last commit
-        run: |
-          npm run contributors
-          git add README.md
-          git config --global user.name ${{ github.event.head_commit.author.name }}
-          git config --global user.email ${{ github.event.head_commit.author.email }}
-          git commit --amend --no-edit
+      - name: Generate contributors
+        run: npm run contributors
 
       - name: Push to master branch
         if: success()
@@ -37,6 +32,5 @@ jobs:
         with:
           target_branch: main
           build_dir: './.'
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
