@@ -1,0 +1,51 @@
+name: Contributors Generate
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+jobs:
+  Runner:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git Source
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Install git-contributor
+        run: npm i git-contributor -D
+
+      - name: Generate contributors
+        run: npm run contributors
+
+      - name: Check Git status
+        id: git
+        shell: bash
+        run: |
+          RESULT=$(git status -sb)
+          if [[ $RESULT == *"README.md"* ]]; then
+            echo "::set-output name=status::true"
+          fi
+
+      - name: Append contributors to the last commit
+        if: contains(steps.git.outputs.result, 'true')
+        run: |
+          git add README.md
+          git commit --amend --no-edit
+
+      - name: Push to master branch
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: main
+          build_dir: './.'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

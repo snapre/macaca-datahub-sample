@@ -1,0 +1,15 @@
+{
+  "name": "datahub-sample",
+  "version": "1.0.0",
+  "description": "Macaca DataHub sample",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snapre/datahub-sample.git"
+  },
+  "devDependencies": {
+    "git-contributor": "^1.1.0"
+  },
+  "scripts": {
+    "contributors": "git-contributor"
+  }
+}
