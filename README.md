@@ -63,6 +63,6 @@ $ npm run dev
 | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 11:17:04 GMT+0000`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 11:19:28 GMT+0000`.
 
 <!-- GITCONTRIBUTOR_END -->
