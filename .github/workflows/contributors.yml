@@ -32,6 +32,6 @@ jobs:
         with:
           target_branch: main
           build_dir: './.'
-          keep_history: 'true'
+          commit_message: 'Update Contributors'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
