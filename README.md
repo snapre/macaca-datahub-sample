@@ -8,6 +8,14 @@
 
 <!-- GITCONTRIBUTOR_START -->
 
+## Contributors
+
+|[<img src="https://avatars.githubusercontent.com/u/52845048?v=4" width="100px;"/><br/><sub><b>snapre</b></sub>](https://github.com/snapre)<br/>|[<img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100px;"/><br/><sub><b>github-actions[bot]</b></sub>](https://github.com/apps/github-actions)<br/>|
+| :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 12:07:22 GMT+0000`.
+
 <!-- GITCONTRIBUTOR_END -->
 
 ## 启动前端开发服务 (React + Vite)
