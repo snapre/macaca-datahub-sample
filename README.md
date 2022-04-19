@@ -1,4 +1,7 @@
-# DataHub sample
+# Macaca DataHub sample
+
+---
+
 > 如何用 DataHub 解决前端工程师开发过程中的数据 Mock 问题
 
 [![CI][CI-image]][CI-url]
@@ -19,6 +22,7 @@ This project follows the git-contributor [spec](https://github.com/xudafeng/git-
 <!-- GITCONTRIBUTOR_END -->
 
 ## 启动前端开发服务 (React + Vite)
+
 ```bash
 $ cd frontend
 $ npm install
