@@ -36,9 +36,8 @@ jobs:
           fi
 
       - name: Append contributors to the last commit
-        if: contains(steps.git.outputs.result, 'true')
         run: |
-          git add README.md
+          git add .
           git config --global user.name github.event.head_commit.author.name
           git config --global user.email github.event.head_commit.author.email
           git commit --amend --no-edit
