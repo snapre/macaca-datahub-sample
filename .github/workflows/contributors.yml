@@ -1,11 +1,10 @@
 name: Contributors Generate
 
 on:
-  workflow_dispatch:
-
   push:
     branches:
       - main
+    workflow_dispatch:
 
 jobs:
   Runner:
@@ -18,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: '16'
 
       - name: Install git-contributor
         run: npm i git-contributor -D
@@ -26,12 +25,19 @@ jobs:
       - name: Generate contributors
         run: npm run contributors
 
-      - name: Push to master branch
+      - name: Append contributors to the last commit
+        if: contains(steps.git.outputs.result, 'true')
+        run: |
+          git add README.md
+          git commit --amend --no-edit
+
+      - name: Push to main branch
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: main
           build_dir: './.'
           commit_message: 'Update Contributors'
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
