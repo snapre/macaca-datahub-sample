@@ -9,22 +9,6 @@
 [CI-image]: https://github.com/snapre/datahub-sample/actions/workflows/contributors.yml/badge.svg
 [CI-url]: https://github.com/snapre/datahub-sample/actions/workflows/contributors.yml
 
-<!-- GITCONTRIBUTOR_START -->
-
-## Contributors
-
-|[<img src="https://avatars.githubusercontent.com/u/52845048?v=4" width="100px;"/><br/><sub><b>snapre</b></sub>](https://github.com/snapre)<br/>|[<img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100px;"/><br/><sub><b>github-actions[bot]</b></sub>](https://github.com/apps/github-actions)<br/>|[<img src="https://avatars.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|
-| :---: | :---: | :---: |
-
-
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 14:11:24 GMT+0000`.
-
-<!-- GITCONTRIBUTOR_END -->
-
-## Star
-
-[![Star History Chart](https://api.star-history.com/svg?repos=snapre/macaca-datahub-sample)](https://star-history.com/#snapre/macaca-datahub-sample)
-
 ## 启动前端开发服务 (React + Vite)
 
 ```bash
@@ -76,3 +60,19 @@ $ npm run dev
 
 ### 可在联调阶段通过实时快照快速录入场景数据
 ![Snapshot Import](./docs/public/snapshot-import.png)
+
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars.githubusercontent.com/u/52845048?v=4" width="100px;"/><br/><sub><b>snapre</b></sub>](https://github.com/snapre)<br/>|[<img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100px;"/><br/><sub><b>github-actions[bot]</b></sub>](https://github.com/apps/github-actions)<br/>|[<img src="https://avatars.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|
+| :---: | :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 14:11:24 GMT+0000`.
+
+<!-- GITCONTRIBUTOR_END -->
+
+## Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=snapre/macaca-datahub-sample)](https://star-history.com/#snapre/macaca-datahub-sample)
