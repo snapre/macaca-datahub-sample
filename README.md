@@ -23,7 +23,7 @@ This project follows the git-contributor [spec](https://github.com/xudafeng/git-
 
 ## Star
 
-[![Star History Chart](https://api.star-history.com/svg?repos=macacajs/macaca-datahub)](https://star-history.com/#snapre/macaca-datahub-sample)
+[![Star History Chart](https://api.star-history.com/svg?repos=snapre/macaca-datahub-sample)](https://star-history.com/#snapre/macaca-datahub-sample)
 
 ## 启动前端开发服务 (React + Vite)
 
