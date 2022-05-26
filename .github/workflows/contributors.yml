@@ -33,7 +33,7 @@ jobs:
 
       - name: Push to main branch
         if: success()
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: main
           build_dir: './.'
