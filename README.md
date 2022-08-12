@@ -65,7 +65,3 @@ $ npm run dev
 This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Apr 19 2022 14:11:24 GMT+0000`.
 
 <!-- GITCONTRIBUTOR_END -->
-
-## Star
-
-[![Star History Chart](https://api.star-history.com/svg?repos=snapre/macaca-datahub-sample)](https://star-history.com/#snapre/macaca-datahub-sample)
