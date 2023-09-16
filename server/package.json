@@ -17,7 +17,7 @@
     "egg-ci": "1.19.0",
     "egg-mock": "4.2.0",
     "eslint": "8.15.0",
-    "eslint-config-egg": "11.1.0"
+    "eslint-config-egg": "12.3.0"
   },
   "engines": {
     "node": ">=10.0.0"
