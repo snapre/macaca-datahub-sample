@@ -11,6 +11,30 @@ const openNotification = (title, value) => {
   });
 };
 
+// Reusable form field configuration
+const formFields = [
+  {
+    label: "Username",
+    name: "username",
+    message: "Please input your username!",
+  },
+  {
+    label: "Email",
+    name: "email",
+    message: "Please input your email!",
+  },
+  {
+    label: "Name",
+    name: "name",
+    message: "Please input your username!",
+  },
+  {
+    label: "Mobile",
+    name: "mobile",
+    message: "Please input your mobile!",
+  },
+];
+
 function CreateUser() {
   const onFinish = async (values) => {
     const res = await userService.createUser(values);
@@ -51,57 +75,21 @@ function CreateUser() {
         borderRadius: "4px",
       }}
     >
-      <Form.Item
-        label="Username"
-        name="username"
-        rules={[
-          {
-            required: true,
-            message: "Please input your username!",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
-
-      <Form.Item
-        label="Email"
-        name="email"
-        rules={[
-          {
-            required: true,
-            message: "Please input your email!",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
-
-      <Form.Item
-        label="Name"
-        name="name"
-        rules={[
-          {
-            required: true,
-            message: "Please input your username!",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
-
-      <Form.Item
-        label="Mobile"
-        name="mobile"
-        rules={[
-          {
-            required: true,
-            message: "Please input your mobile!",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
+      {formFields.map((field) => (
+        <Form.Item
+          key={field.name}
+          label={field.label}
+          name={field.name}
+          rules={[
+            {
+              required: true,
+              message: field.message,
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+      ))}
 
       <Form.Item
         wrapperCol={{
