@@ -26,7 +26,7 @@ const formFields = [
   {
     label: "Name",
     name: "name",
-    message: "Please input your username!",
+    message: "Please input your name!",
   },
   {
     label: "Mobile",
